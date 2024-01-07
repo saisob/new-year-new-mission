@@ -1,0 +1,31 @@
+/* common shared style */
+
+.banner {
+    background-image: url('images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+.banner>.banner-text {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.banner>.banner-text>.new-year {
+    color: #00f2ff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner>.banner-text>.banner-item {
+    color: #00f2ff;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+
