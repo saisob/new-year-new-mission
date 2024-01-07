@@ -28,7 +28,6 @@
     font-weight: 900;
 
 }
-
 .about>.about-title {
     color: #F00;
     text-align: center;
@@ -91,7 +90,10 @@
     color: #FFF;
     margin-left: 380px;
 }
-
+.btn:hover{
+    background-color: #a84804;
+    color: #030000;
+}
 .box {
     height: 350px;
     width: 1320px;
@@ -99,9 +101,11 @@
     border-radius: 15px;
     margin-left: 280px;
     background-color: #fffaf6;
-
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-
+.box:hover{
+    background-color: #dbd7d4;
+}
 .box>h3 {
     color: #070211;
     font-family: Inter;
@@ -142,9 +146,12 @@
 
 .offer>.best-offer {
     width: 35%;
-    padding: 20px 50px 20px 0px;
+    padding: 20px 30px 20px 50px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-
+.offer>.best-offer:hover{
+    background-color: #dfdcdc;
+}
 .offer>.offer-img {
     width: 30%;
     border: 15px solid #F00;
@@ -155,11 +162,15 @@
 
 }
 
+
 .offer>.offer-year {
     width: 35%;
-    padding:0px 10px 0px 100px ;
+    padding:0px 10px 10px 50px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-
+.offer>.offer-year:hover{
+    background-color: #dfdcdc;
+}
 .offer>.best-offer>.best {
     color: #F00;
     font-family: Inter;
