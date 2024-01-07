@@ -81,12 +81,42 @@
     font-weight: 400;
     margin-left: 380px;
 }
-.btn{
+
+.btn {
     background-color: #FD6E0A;
     border-radius: 5px;
     border: none;
     padding: 18px 36px;
     font-size: 20px;
     color: #FFF;
-    margin-left:380px ;
+    margin-left: 380px;
+}
+
+.box {
+    height: 300px;
+    width: 1320px;
+    border: 2px solid whitesmoke;
+    border-radius: 15px;
+    margin-left: 280px;
+    background-color: #fffaf6;
+    
+}
+
+.box>h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.box>.place{
+    padding-left:500px ;
+    
+}
+.box>.date{
+    padding-left: 450px;
+}
+.box>.time{
+    padding-left:420px ;
 }
