@@ -93,13 +93,13 @@
 }
 
 .box {
-    height: 300px;
+    height: 350px;
     width: 1320px;
     border: 2px solid whitesmoke;
     border-radius: 15px;
     margin-left: 280px;
     background-color: #fffaf6;
-    
+
 }
 
 .box>h3 {
@@ -110,13 +110,89 @@
     line-height: 20px;
     margin-top: 50px;
 }
-.box>.place{
-    padding-left:500px ;
-    
+
+.box>.place {
+    padding-left: 500px;
+
 }
-.box>.date{
+
+.box>.date {
     padding-left: 450px;
 }
-.box>.time{
-    padding-left:420px ;
+
+.box>.time {
+    padding-left: 420px;
+}
+
+#address-btn {
+    margin-left: 580px;
+}
+
+.color-text {
+    color: #F00;
+}
+
+.offer {
+    display: flex;
+    width: 1320px;
+
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+.offer>.best-offer {
+    width: 35%;
+    padding: 20px 50px 20px 0px;
+}
+
+.offer>.offer-img {
+    width: 30%;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding-left: 80px;
+    height: 370px;
+    padding: 12px 12px 6px 12px;
+
+}
+
+.offer>.offer-year {
+    width: 35%;
+    padding:0px 10px 0px 100px ;
+}
+
+.offer>.best-offer>.best {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer>.best-offer>.offer-item {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer>.best-offer.offer-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer>.offer-year>h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer>.offer-year>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
 }
