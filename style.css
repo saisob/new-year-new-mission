@@ -17,7 +17,7 @@ body {
 }
 
 .banner>.banner-text>.new-year {
-    color: #00f2ff;
+    color: #91d4d9;
     text-align: center;
     font-family: Merriweather;
     font-size: 32px;
@@ -25,7 +25,7 @@ body {
 }
 
 .banner>.banner-text>.banner-item {
-    color: #00f2ff;
+    color: #91d4d9;
     text-align: center;
     font-family: Merriweather;
     font-size: 72px;
@@ -373,3 +373,58 @@ body {
     font-weight: 400;
 }
 
+footer {
+    width: 1320px;
+    margin-left: 80px;
+    background-color: #070211;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.heading {
+    display: flex;
+    height: 200px;
+}
+
+.heading-left {
+    width: 50%;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 50px 50px;
+}
+
+.heading-right {
+    width: 50%;
+}
+
+.heading-right>h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding: 20px 0 0 150px;
+}
+
+.share {
+    text-align: center;
+    padding: 20px;
+}
+
+.share>img {
+    padding: 10px;
+}
+
+.foote {
+    display: flex;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.foote>.reserved{
+    padding: 10px 50px;
+}
+.foote>.unsub{
+    padding: 10px 50px 10px 500px;
+}
