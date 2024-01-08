@@ -28,6 +28,7 @@
     font-weight: 900;
 
 }
+
 .about>.about-title {
     color: #F00;
     text-align: center;
@@ -90,10 +91,12 @@
     color: #FFF;
     margin-left: 380px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #a84804;
     color: #030000;
 }
+
 .box {
     height: 350px;
     width: 1320px;
@@ -103,9 +106,11 @@
     background-color: #fffaf6;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.box:hover{
+
+.box:hover {
     background-color: #dbd7d4;
 }
+
 .box>h3 {
     color: #070211;
     font-family: Inter;
@@ -149,9 +154,11 @@
     padding: 20px 30px 20px 50px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.offer>.best-offer:hover{
+
+.offer>.best-offer:hover {
     background-color: #dfdcdc;
 }
+
 .offer>.offer-img {
     width: 30%;
     border: 15px solid #F00;
@@ -161,16 +168,16 @@
     padding: 12px 12px 6px 12px;
 
 }
-
-
 .offer>.offer-year {
     width: 35%;
-    padding:0px 10px 10px 50px ;
+    padding: 0px 10px 10px 50px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.offer>.offer-year:hover{
+
+.offer>.offer-year:hover {
     background-color: #dfdcdc;
 }
+
 .offer>.best-offer>.best {
     color: #F00;
     font-family: Inter;
@@ -184,7 +191,6 @@
     font-size: 48px;
     font-weight: 900;
 }
-
 .offer>.best-offer.offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -192,18 +198,68 @@
     font-weight: 400;
     line-height: 32px;
 }
-
 .offer>.offer-year>h2 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
-
 .offer>.offer-year>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+}
+
+.function-header {
+    text-align: center;
+    margin-top: 120px;
+    
+}
+
+.function-header>.functional {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+
+}
+
+.function-header>.header-item {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+.function-header>.function-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 30px;
+}
+.content-footer{
+    background-image:url('images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 220px;
+}
+.content-banner{
+    display: flex;
+    position: relative;
+}
+#img-one{
+    position: absolute;
+    padding: 30px 0 0 280px;
+}
+.img-tow{
+    background-image: url('images/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right bottom;
+    margin-right: 282px;
+}
+.img-tow>.discount{
+    margin: 100px 1000px;
 }
