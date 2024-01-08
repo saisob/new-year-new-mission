@@ -54,7 +54,7 @@
 }
 
 .about>.about-banner {
-    padding: 0 30% 0 30%;
+    text-align: center;
 }
 
 .welcome {
@@ -102,7 +102,7 @@
     width: 1320px;
     border: 2px solid whitesmoke;
     border-radius: 15px;
-    margin-left: 280px;
+    margin-left: 80px;
     background-color: #fffaf6;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
@@ -145,7 +145,7 @@
     display: flex;
     width: 1320px;
 
-    margin-left: 280px;
+    margin-left: 80px;
     margin-top: 100px;
 }
 
@@ -251,15 +251,15 @@
 }
 #img-one{
     position: absolute;
-    padding: 30px 0 0 280px;
+    padding: 60px 0 0 100px;
 }
 .img-tow{
     background-image: url('images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     height: 500px;
     background-position: right bottom;
-    margin-right: 282px;
+    margin-right: 92px;
 }
 .img-tow>.discount{
-    margin: 100px 1000px;
+    margin: 100px 825px;
 }
