@@ -1,5 +1,8 @@
 /* common shared style */
-
+body{
+    margin: 0px;
+    padding: 0px;
+}
 .banner {
     background-image: url('images/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -168,6 +171,7 @@
     padding: 12px 12px 6px 12px;
 
 }
+
 .offer>.offer-year {
     width: 35%;
     padding: 0px 10px 10px 50px;
@@ -191,6 +195,7 @@
     font-size: 48px;
     font-weight: 900;
 }
+
 .offer>.best-offer.offer-description {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -198,12 +203,14 @@
     font-weight: 400;
     line-height: 32px;
 }
+
 .offer>.offer-year>h2 {
     color: #F00;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
 }
+
 .offer>.offer-year>p {
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -215,7 +222,7 @@
 .function-header {
     text-align: center;
     margin-top: 120px;
-    
+
 }
 
 .function-header>.functional {
@@ -239,27 +246,84 @@
     color: rgba(7, 2, 17, 0.60);
     font-size: 30px;
 }
-.content-footer{
-    background-image:url('images/Rectangle\ 2.png');
+
+.content-footer {
+    background-image: url('images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
     height: 220px;
 }
-.content-banner{
+
+.content-banner {
     display: flex;
     position: relative;
 }
-#img-one{
+
+#img-one {
     position: absolute;
     padding: 60px 0 0 100px;
 }
-.img-tow{
+
+.img-two {
     background-image: url('images/Rectangle\ 1.png');
     background-repeat: no-repeat;
     height: 500px;
     background-position: right bottom;
-    margin-right: 92px;
+    margin-right: 100px;
 }
-.img-tow>.discount{
+
+.img-two>.discount {
     margin: 100px 825px;
 }
+
+.portfolio-header {
+    margin: 80px 0px 0 80px;
+    
+}
+
+.portfolio-header>h3 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.portfolio-header>h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio-header>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+ 
+}
+.row-1{
+    display: flex;
+    margin-left: 80px;
+}
+.row-1>.img-1{
+    padding-bottom: 25px;
+}
+.row-1>.img-2{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.row-1>.img-3{
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.row-2{
+    display: flex;
+    margin-left: 80px;
+}
+.row-2>.img-2{
+    padding-left: 25px;
+}
+.row-2>.img-3{
+    padding-left: 25px;
+}
+
