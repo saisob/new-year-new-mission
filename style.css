@@ -277,16 +277,16 @@ body {
     margin: 100px 825px;
 }
 
-.portfolio-header {
-    margin: 80px 0px 0 80px;
-
+.portfolio {
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
 .portfolio-header>h3 {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
-
+    padding-top: 50px;
 }
 
 .portfolio-header>h2 {
@@ -305,7 +305,6 @@ body {
 
 .row-1 {
     display: flex;
-    margin-left: 80px;
 }
 
 .row-1>.img-1 {
@@ -324,7 +323,6 @@ body {
 
 .row-2 {
     display: flex;
-    margin-left: 80px;
 }
 
 .row-2>.img-2 {
@@ -341,7 +339,7 @@ body {
     height: 500px;
     width: 1320px;
     border: 2px solid whitesmoke;
-    margin-left: 80px;
+    margin-left: 100px;
     margin-top: 50px;
     text-align: center;
     padding-top: 100px;
@@ -362,20 +360,40 @@ body {
     padding: 0 300px;
 }
 
-.subscribe-box>.input-email {
-    border-radius: 50px;
+.subscribe-box>.input-box {
+    display: inline-block;
+}
+
+.subscribe-box>.input-box>.input-email {
     background: #FFF;
-    width: 648px;
-    height: 72px;
-    color: rgba(7, 2, 17, 0.30);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+
+.subscribe-box>.input-box>.input-subscribe {
+    background: #F00;
+    color: #FFF;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 0 25px 25px 0;
+    margin-left: -5px;
+}
+
+.subscribe-box>.input-box>.input-subscribe:hover {
+    background: rgb(207, 9, 9);
+
 }
 
 footer {
     width: 1320px;
-    margin-left: 80px;
+    margin-left: 100px;
     background-color: #070211;
     margin-top: 50px;
     border-radius: 15px;
@@ -397,23 +415,44 @@ footer {
 
 .heading-right {
     width: 50%;
+    margin-top: 30px;
+    margin-left: 380px;
 }
 
-.heading-right>h3 {
+.heading-right>.call {
+    display: flex;
+}
+
+.heading-right>.call>h3 {
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
-    line-height: 40px;
-    padding: 20px 0 0 150px;
 }
-
-.share {
+.heading-right>.call>img{
+    height: 30px;
+    margin-top: 22px;
+    margin-right: 10px;
+}
+.heading-right>.web {
+    display: flex;
+}
+.heading-right>.web>h3 {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.heading-right>.web>img{
+    height: 30px;
+    margin-top: 23px;
+    margin-right: 10px;
+}
+.footer-img {
     text-align: center;
     padding: 20px;
 }
 
-.share>img {
-    padding: 10px;
+.footer-img>img {
+    padding: 20px;
 }
 
 .foote {
@@ -422,9 +461,11 @@ footer {
     font-size: 24px;
     font-weight: 500;
 }
-.foote>.reserved{
+
+.foote>.reserved {
     padding: 10px 50px;
 }
-.foote>.unsub{
+
+.foote>.unsub {
     padding: 10px 50px 10px 500px;
 }
